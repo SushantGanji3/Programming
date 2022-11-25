@@ -1,0 +1,16 @@
+html {
+    background-color: #998888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    text-align: center;
+    color: #823329;
+}
+.links {
+    width: fit-content;
+    color: #EADEDA;
+    background-color: #8A3033;
+    padding: 20px;
+}
