@@ -13,16 +13,16 @@ menu.onclick = () => {
 };
 
 window.onscroll = () => {
-    menu.classList.remove('bx-x');
-    navbar.classList.remove('active');
-}
+	menu.classList.remove('bx-x');
+	navbar.classList.remove('active');
+};
 
 const sr = ScrollReveal ({
-    distance: '25px',
-    duration: 2500,
-    reset: true
+	distance: '25px',
+	duration: 2500,
+	reset: true
 })
 
-sr.reveal('.home-text', {delay:190, origin:'bottom'});
+sr.reveal('.home-text',{delay:190, origin:'bottom'})
 
-sr.reveal('.about,.skills,.portfolio,.contact', {delay:200, origin:'bottom'});
+sr.reveal('.about,.services,.portfolio,.contact',{delay:200, origin:'bottom'})
